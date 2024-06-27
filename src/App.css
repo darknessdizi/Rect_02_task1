@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .box__filters {
@@ -13,22 +14,15 @@
 .box__projects {
   margin-top: 20px;
   display: flex;
-  /* align-items: stretch; */
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  /* flex-direction: column; */
-  /* flex-basis: auto; */
-  /* width: 1000px; */
-  /* height: 100%; */
-  /* width: 100%; */
-  /* min-height: 800px;
-  max-width: 1000px; */
+}
+
+.column {
+  width: calc(100% / 3);
 }
 
 .item__project {
-  margin: 10px;
-  /* width: 300px; */
-  /* flex-basis: 20%; */
+  margin-top: 10px;
+  width: calc(100% - 15px);
 }
 
 .button__filter {
