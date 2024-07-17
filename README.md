@@ -1,6 +1,10 @@
 Портфолио с фильтрами
 ===
 
+[![Build status](https://ci.appveyor.com/api/projects/status/cm1uk82w5n7i5u52?svg=true)](https://ci.appveyor.com/project/darknessdizi/rect-02-task1)
+
+*Ссылка на страницу:* https://darknessdizi.github.io/Rect_02_task1/
+
 Необходимо реализовать портфолио с фильтрами, аналогичное указанному на изображении.
 
 ![portfolio-all](./assets/portfolio-all.png)
