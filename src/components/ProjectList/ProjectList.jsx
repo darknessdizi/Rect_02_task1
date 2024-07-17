@@ -1,14 +1,15 @@
 export const ProjectList = (props) => {
   // Функциональный компонент отрисовывающий список проектов
+  const { projects } = props;
   let id = 0;
   const result = {
     first: [],
     second: [],
     third: [],
   };
-  const maxCount = Math.round(props.projects.length / 3);
+  const maxCount = Math.round(projects.length / 3);
 
-  props.projects.map((obj) => {
+  projects.map((obj) => {
     id += 1;
     if ((id > maxCount) && (id <= maxCount * 2)) {
       result.second.push(
